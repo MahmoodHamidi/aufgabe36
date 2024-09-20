@@ -1,0 +1,176 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+:root {
+  --color-primary: rgb(0, 255, 255);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.h-div {
+  position: relative;
+  /* border: 1px solid red; */
+  padding: 60px;
+  width: 100vw;
+  height: 150vh;
+}
+
+.head-box {
+  display: inline;
+  width: 100%;
+ 
+}
+.svg-icon {
+    filter: invert(70%) sepia(70%) saturate(500%) hue-rotate(140deg);
+  }
+.text-1 {
+    display: inline-block;
+    position: absolute;
+    top: 70px;
+    left: 120px;
+font-weight: bold;
+  font-family: "Roboto", sans-serif;
+  font-size: 3rem;
+  color: var(--color-primary);
+}
+
+.r-img{
+    /* border: 1px solid red; */
+    width: 3rem;
+
+  position: absolute;
+  top: 60px;
+  right: 60px;
+}
+.r-img img {
+width: 100%;
+height: auto;
+}
+.l-img {
+    /* border: 1px solid red; */
+    width: 3vw;
+   
+  position: absolute;
+  top: 60px;
+  left: 60px; 
+}
+.l-img img {
+    width: 100%;
+    height: auto;
+}
+
+.hero-2 {
+  position: absolute;
+  top: 400px;
+  right: 150px;
+  width: 50rem;
+}
+.hero-1{
+    position: absolute;
+    top: 500px;
+    /* border: 1px solid red; */
+    width: 60rem;
+    height: 20rem;
+    padding: 10px;
+}
+
+h1{
+    font-size: 3.5rem;
+    font-family: "Roboto", sans-serif;
+    padding-bottom: 10px;
+}
+p{
+    font-size: 1.5rem;
+    font-family: "Roboto", sans-serif;
+}
+.more{
+    position: absolute;
+    top: 250px;
+    /* border: 1px solid red; */
+    width: 200px;
+    height: 60px;
+    background-color: var(--color-primary);
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5rem;
+    padding-top: 17px;
+}
+
+
+.main{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--color-primary);
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+   padding: 50px;
+} 
+
+.services{
+    font-size: 4rem;
+    padding-bottom: 20px;
+}
+.bp{
+    padding-bottom: 100px;
+}
+.posi{
+    position: relative;
+    width: 60vw;
+    height: 60vh;
+    background-color: white;
+    margin-left: 20rem;
+}
+
+.img-5{
+    
+    position: absolute;
+    top: 7rem;
+    right: 5rem;
+    
+}
+.img-5 img {
+    width: 20vw;
+    height: 35vh;
+}
+.text-h{
+    position: absolute;
+    top: 7rem;
+    left: 5rem;
+    /* border: 1px solid red; */
+    width: 20vw;
+    height: 35vh;
+    font-family: "Roboto", sans-serif;
+    text-align: left;
+    font-size: 2rem;
+    padding: 20px;
+    line-height: 2;
+
+}
+.footer{
+    width: 100vw;
+    height: 10vh;
+    font-size: 1rem;
+    padding: 20px;
+    
+}
+.text-6,.icon-1{
+    display: inline-block;
+}
+.icon-1{
+   padding-left: 80rem;
+   font-size: 2rem;
+
+  
+ 
+  
+}
+.fa-youtube{
+    padding-right: 50px;
+}
+.fa-instagram{
+    padding-right: 50px;
+}
